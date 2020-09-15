@@ -157,12 +157,17 @@ body {
 }
 
 #logo1 {
-  width: 100%;
+  width: 100% !important;
   -webkit-transition: all 1.2s;
   transition: all 1.2s;
   margin: auto;
   padding: 1rem;
   margin-bottom: 10%;
+}
+
+#logo1:hover {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 #max-pic {
@@ -729,6 +734,12 @@ body {
 #contact .other-contacts img {
   width: 100px;
   border-radius: 50%;
+}
+
+@media (max-width: 1890px) {
+  .projects-container {
+    margin-left: 5% !important;
+  }
 }
 
 @media (min-width: 2100px) {
