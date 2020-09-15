@@ -64,10 +64,15 @@ body {
   margin-bottom: 4rem;
 }
 
+.main-1 .top {
+  background-color: black;
+  height: 100%;
+}
+
 .main-1 #logo1 {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  margin-bottom: 20%;
+  border: none;
 }
 
 #enableSound {

@@ -66,9 +66,13 @@ body {
   flex-direction: column;
   border: 1px solid black;
   margin-bottom: 4rem;
+  .top {
+    background-color: black;
+    height: 100%;
+  }
   #logo1 {
     transition: all 0.5s;
-    margin-bottom: 20%;
+    border: none;
   }
 }
 
