@@ -45,6 +45,7 @@ body {
 
 #codeIcon {
   width: 120px;
+  margin-bottom: 8%;
 }
 
 .container-main {
@@ -278,7 +279,7 @@ body {
     font-size: 4rem;
     border-bottom: 2px solid $yell;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 2% !important;
     margin: 1rem auto;
     width: 300px;
     text-transform: uppercase;
