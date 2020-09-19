@@ -154,6 +154,8 @@ body {
 .links-section .links-section-item img:hover {
   background: #251a29;
   padding: 0.4rem;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 #logo1 {
@@ -207,6 +209,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "playfair display" !important;
   height: 100%;
   text-align: center;
   padding: 12rem;
@@ -227,7 +230,6 @@ body {
 
 #main-nav ul li a {
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: lighter;
   font-size: 4.2rem;
   -webkit-transition: all 5.5s cubic-bezier(0.875, 0.885, 0.32, 1.275);
@@ -243,6 +245,8 @@ body {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   margin-left: 8%;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
 }
 
 .main-3 {
@@ -343,6 +347,7 @@ body {
   font-size: 4rem;
   border-bottom: 2px solid #e9f671;
   padding-top: 2%;
+  font-family: "playfair display" !important;
   padding-bottom: 2% !important;
   margin: 1rem auto;
   width: 300px;
@@ -479,6 +484,7 @@ body {
 }
 
 #services h2 {
+  font-family: "playfair display" !important;
   font-size: 4rem;
   border-bottom: 2px solid #e9f671;
   border-bottom-right-radius: 40%;
@@ -592,6 +598,7 @@ body {
   font-size: 4rem;
   border-bottom: 2px solid #e9f671;
   height: 130px;
+  font-family: "playfair display" !important;
   margin: 1rem auto;
   text-transform: uppercase;
   margin-bottom: 2%;

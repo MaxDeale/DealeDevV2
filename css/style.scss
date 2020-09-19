@@ -136,6 +136,7 @@ body {
     img:hover {
       background: $purp;
       padding: 0.4rem;
+      transform: rotate(360deg);
     }
   }
 }
@@ -175,7 +176,7 @@ body {
 
 #main-nav {
   @include jContent();
-
+  font-family: "playfair display" !important;
   height: 100%;
   text-align: center;
   padding: 12rem;
@@ -191,7 +192,6 @@ body {
 
     a {
       text-decoration: none;
-      text-transform: uppercase;
       font-weight: lighter;
       font-size: 4.2rem;
       transition: all 5.5s cubic-bezier(0.875, 0.885, 0.32, 1.275);
@@ -205,6 +205,7 @@ body {
       color: $yell;
       transform: scale(1.1);
       margin-left: 8%;
+      transform: rotate(5deg);
     }
   }
 }
@@ -286,6 +287,7 @@ body {
     font-size: 4rem;
     border-bottom: 2px solid $yell;
     padding-top: 2%;
+    font-family: "playfair display" !important;
     padding-bottom: 2% !important;
     margin: 1rem auto;
     width: 300px;
@@ -385,6 +387,7 @@ body {
     border: 1px solid black;
   }
   h2 {
+    font-family: "playfair display" !important;
     font-size: 4rem;
     border-bottom: 2px solid $yell;
     border-bottom-right-radius: 40%;
@@ -470,6 +473,7 @@ body {
     font-size: 4rem;
     border-bottom: 2px solid $yell;
     height: 130px;
+    font-family: "playfair display" !important;
     margin: 1rem auto;
     text-transform: uppercase;
     margin-bottom: 2%;
