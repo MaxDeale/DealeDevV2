@@ -5,8 +5,8 @@
 }
 
 $purp: #251a29;
-$grey: rgba(147, 148, 148, 0.767);
-$yell: rgb(233, 246, 113);
+$grey: rgba(85, 85, 85, 0.767);
+$yell: rgb(238, 231, 170);
 
 @mixin jContent {
   display: flex;
@@ -203,9 +203,8 @@ body {
     a:hover {
       border-bottom: 2px solid black;
       color: $yell;
-      transform: scale(1.1);
+      transform: scale(1.2);
       margin-left: 8%;
-      transform: rotate(5deg);
     }
   }
 }
