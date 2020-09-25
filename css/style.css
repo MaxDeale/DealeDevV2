@@ -231,6 +231,7 @@ body {
 #main-nav ul li a {
   text-decoration: none;
   font-weight: lighter;
+  text-transform: uppercase;
   font-size: 4.2rem;
   -webkit-transition: all 5.5s cubic-bezier(0.875, 0.885, 0.32, 1.275);
   transition: all 5.5s cubic-bezier(0.875, 0.885, 0.32, 1.275);
@@ -274,12 +275,14 @@ body {
 .main-3 #headline {
   font-size: 3rem;
   font-weight: bolder;
-  margin-bottom: 35%;
+  margin-bottom: 8% !important;
+  margin-top: 5% !important;
 }
 
 .main-3 #bio {
   font-size: 1.1rem;
   margin-top: 4%;
+  margin-bottom: 18% !important;
   padding: 0.4rem;
   font-weight: lighter;
   border-top: 1px solid black;
@@ -289,6 +292,7 @@ body {
 .main-3 img {
   border-radius: 5px;
   overflow: hidden;
+  margin-bottom: 28% !important;
   width: 100%;
 }
 
