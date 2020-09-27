@@ -39,6 +39,8 @@ body {
 .invertBlack {
   background: black !important;
   color: white !important;
+  padding: 5rem;
+  height: 100% !important;
 }
 
 // Main Section
@@ -67,7 +69,6 @@ body {
   border: 1px solid black;
   margin-bottom: 4rem;
   .top {
-    background-color: black;
     height: 100%;
   }
   #logo1 {
@@ -107,6 +108,7 @@ body {
 }
 
 .links-section {
+  margin-bottom: 20%;
   transition: all 1s;
   img {
     border-radius: 50%;
@@ -276,7 +278,7 @@ body {
 #projects {
   color: white;
 
-  margin-top: 35%;
+  margin-top: 25%;
 
   height: 1800px;
   background: url(/img/darkback.png) no-repeat center center/cover;
@@ -592,7 +594,7 @@ body {
   }
   #projects {
     margin: 0 !important;
-    margin-top: 10% !important;
+    margin-top: 20% !important;
     margin-left: 10% !important;
     width: 80%;
   }
