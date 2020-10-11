@@ -747,9 +747,9 @@ body {
   border-radius: 50%;
 }
 
-@media (max-width: 1790px) {
+@media (max-width: 1880px) {
   .projects-container {
-    margin-left: 10% !important;
+    margin-left: 8% !important;
   }
 }
 
