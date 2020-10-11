@@ -278,7 +278,7 @@ body {
 #projects {
   color: white;
 
-  margin-top: 25%;
+  margin-top: 35%;
 
   height: 1800px;
   background: url(/img/darkback.png) no-repeat center center/cover;
@@ -303,6 +303,7 @@ body {
 
   .projects-container {
     margin-top: 2%;
+   
     width: 100%;
     height: 80%;
     display: grid;
@@ -581,9 +582,9 @@ body {
 
 //regular screens
 
-@media (max-width: 1890px) {
+@media (max-width: 1790px) {
   .projects-container {
-    margin-left: 5% !important;
+    margin-left: 10% !important;
   }
 }
 
@@ -644,7 +645,7 @@ body {
 
   //projects
   #projects {
-    margin-top: 420%;
+    margin-top: 520%;
     height: 4500px;
   }
   .projects-container {
