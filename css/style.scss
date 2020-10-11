@@ -582,9 +582,9 @@ body {
 
 //regular screens
 
-@media (max-width: 1800px) {
+@media (min-width: 1800px) {
   .projects-container {
-    margin-left: 18% !important;
+    margin-left: 4% !important;
   }
 
 
@@ -603,7 +603,7 @@ body {
   }
 
   .project-item {
-    margin-left: 15% !important;
+    margin-left: 3% !important;
   }
 }
 
