@@ -1,4 +1,4 @@
-let logo = document.getElementById("logo1");
+let logo = document.getElementById("logo");
 
 let projI = document.getElementById("proj");
 
@@ -10,7 +10,7 @@ let projButton = document.getElementById("proj-button");
 let contButton = document.getElementById("cont-button");
 let servButton = document.getElementById("serv-button");
 
-let linksSection = document.getElementById("links");
+let linksSection = document.getElementById("links-section");
 
 logo.addEventListener("mouseover", function () {
   this.src = "/img/Black on White.png";
@@ -54,7 +54,7 @@ function init() {
     links[i].addEventListener("mouseover", play);
   }
 
-  let navLinks = document.getElementsByClassName("navlinks");
+  let navLinks = document.getElementsByClassName("nav-links");
   for (i = 0; i < navLinks.length; i++) {
     navLinks[i].addEventListener("mouseover", play);
   }
@@ -159,24 +159,3 @@ function doneAudio(ev) {
   let fn = ev.target.getAttribute("data-file");
   SOUNDS[fn] = null;
 }
-
-//fit message
-
-function FitToContent(id, maxHeight) {
-  var text = id && id.style ? id : document.getElementById(id);
-  if (!text) return;
-
-  var adjustedHeight = text.clientHeight;
-  if (!maxHeight || maxHeight > adjustedHeight) {
-    adjustedHeight = Math.max(text.scrollHeight, adjustedHeight);
-    if (maxHeight) adjustedHeight = Math.min(maxHeight, adjustedHeight);
-    if (adjustedHeight > text.clientHeight)
-      text.style.height = adjustedHeight + "px";
-  }
-}
-
-window.onload = function () {
-  document.getElementById("ta").onkeyup = function () {
-    FitToContent(this, 500);
-  };
-};

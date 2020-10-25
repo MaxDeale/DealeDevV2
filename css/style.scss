@@ -51,7 +51,9 @@ body {
   background: $grey;
   border: 1px solid $purp;
   color: $purp;
+  width: 80%;
 
+  font-size: 2rem;
   margin-top: 20%;
 }
 #enableSound:hover {
@@ -78,7 +80,7 @@ body {
   width: 90%;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .header-a {
@@ -88,6 +90,7 @@ body {
 
 #links-section {
   display: grid;
+  width: 33%;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   img {
@@ -121,13 +124,14 @@ body {
   margin: 2rem;
   margin-left: 20%;
   height: 250px;
+  border: 1px solid black;
 }
 
 //header b
 
 .header-b {
   #maxpic {
-    width: 450px;
+    width: 350px;
     padding: 1rem;
   }
 }
@@ -145,9 +149,10 @@ body {
   ul li {
     list-style: none;
     padding: 3rem 0;
-
+    display: flex;
+    flex-direction: row;
     i {
-      color: rgba($color: $purp, $alpha: 1);
+      color: rgb(37, 23, 51);
       display: none;
     }
 
@@ -317,10 +322,16 @@ body {
       opacity: 1;
       i {
         padding: 2rem;
-        color: rgb(233, 233, 89);
+        color: rgb(197, 197, 194);
         border: 1px solid $yell;
         background: $purp;
         border-radius: 50%;
+        transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s;
+      }
+      i:hover {
+        transform: scale(0.8);
+        color: rgb(250, 240, 104);
+        border-color: rgb(250, 240, 104);
       }
       p {
         font-size: 2rem;
@@ -335,8 +346,9 @@ body {
         li {
           list-style: none;
           text-align: center;
+
           padding: 1rem 0;
-          font-size: 1rem;
+          font-size: 1.2rem;
           color: rgb(250, 240, 104);
         }
       }
@@ -346,7 +358,7 @@ body {
       height: 1000px;
       flex-direction: column;
       h6 {
-        font-size: 2rem;
+        font-size: 2.2rem;
         color: white;
         padding: 2rem 0;
       }
@@ -382,6 +394,9 @@ body {
     margin-top: 3%;
   }
   .contact-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
     form {
@@ -481,8 +496,11 @@ body {
 }
 
 @media (max-width: 600px) {
+  #main-nav ul li a {
+    font-size: 33px;
+  }
   #contact {
-    margin-top: 460%;
+    margin-top: 480%;
     height: 160%;
   }
   .form-group input {
@@ -510,15 +528,29 @@ body {
     margin: 0 auto;
   }
 
+  #projects {
+    width: 100%;
+  }
+
+  #services {
+    width: 100%;
+  }
+
+  .projects-container {
+    width: 100%;
+  }
+  .services-container {
+    width: 100% !important;
+  }
   #projects h4 {
     font-size: 53px;
-    width: 100%;
+    text-align: center;
     margin-bottom: 30%;
   }
 
   #services h4 {
     font-size: 53px;
-    width: 100%;
+    margin-top: 20%;
     margin-bottom: 30%;
   }
 }
