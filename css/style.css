@@ -75,13 +75,22 @@ body {
 }
 
 .header-a {
-  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #links-section {
   display: -ms-grid;
   display: grid;
-  width: 33%;
+  width: 53%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -137,8 +146,7 @@ body {
 }
 
 #logo {
-  margin: 2rem;
-  margin-left: 20%;
+  margin: 2rem auto;
   height: 250px;
   border: 1px solid black;
 }
@@ -688,6 +696,9 @@ body {
   #logo {
     margin: 0 auto;
   }
+  #header {
+    width: 100%;
+  }
   #contact {
     margin-top: 320%;
     height: 160%;
@@ -740,10 +751,10 @@ body {
   #enableSound {
     font-size: 20px;
     width: 200px;
+    margin-right: 20%;
   }
   #projects {
     width: 100%;
-    margin-top: 320%;
   }
   #projects h4 {
     font-size: 40px !important;
@@ -751,6 +762,15 @@ body {
   }
   #services {
     width: 100%;
+  }
+  #about h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    width: 200px !important;
+    text-align: center;
+    font-size: 20px;
   }
   .projects-container {
     width: 100%;

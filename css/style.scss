@@ -83,12 +83,14 @@ body {
 }
 
 .header-a {
-  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #links-section {
   display: grid;
-  width: 33%;
+  width: 53%;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   img {
@@ -128,8 +130,8 @@ body {
 }
 
 #logo {
-  margin: 2rem;
-  margin-left: 20%;
+  margin: 2rem auto;
+
   height: 250px;
   border: 1px solid black;
 }
@@ -532,6 +534,10 @@ body {
     margin: 0 auto;
   }
 
+  #header {
+    width: 100%;
+  }
+
   #contact {
     margin-top: 320%;
     height: 160%;
@@ -563,11 +569,12 @@ body {
   #enableSound {
     font-size: 20px;
     width: 200px;
+    margin-right: 20%;
   }
 
   #projects {
     width: 100%;
-    margin-top: 320%;
+
     h4 {
       font-size: 40px !important;
       width: 100%;
@@ -576,6 +583,16 @@ body {
 
   #services {
     width: 100%;
+  }
+
+  #about {
+    h1 {
+      display: flex;
+      margin: 0;
+      width: 200px !important;
+      text-align: center;
+      font-size: 20px;
+    }
   }
 
   .projects-container {
