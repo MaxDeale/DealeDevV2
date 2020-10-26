@@ -119,6 +119,15 @@ body {
     margin: 1rem;
     transition: all 1s;
   }
+  img:hover {
+    transform: rotate(720deg);
+  }
+  div {
+    transition: all 1s;
+  }
+  div:hover {
+    transform: scale(6);
+  }
 }
 
 #logo {
@@ -533,7 +542,7 @@ body {
 
   #projects {
     width: 100%;
-    margin-top:200%;
+    margin-top: 200%;
   }
 
   #services {
