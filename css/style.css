@@ -65,7 +65,7 @@ body {
   padding: 2rem;
   margin: 5rem auto;
   width: 90%;
-  background-color: #f7f8ef;
+  background-color: #f1f1ec;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -130,6 +130,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 10%;
+  margin-right: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #certs img {
@@ -157,7 +162,9 @@ body {
 
 #logo {
   margin: 2rem auto;
-  height: 250px;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  height: 350px;
   border: 1px solid black;
 }
 
@@ -186,6 +193,20 @@ body {
 #about h1 span {
   font-weight: lighter;
   font-family: "noto sans JP";
+}
+
+#about div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about div #comPic {
+  padding: 1rem;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 
 #main-nav {
