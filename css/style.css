@@ -64,18 +64,16 @@ body {
 #header {
   margin: 1rem auto;
   width: 90%;
-  height: 100vh;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  -ms-grid-columns: (minmax(420px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
 }
 
 .header-a {
-  height: 800px;
   width: 33%;
 }
 
@@ -148,6 +146,17 @@ body {
   width: 400px;
   padding: 1rem;
   border: 1px solid black;
+}
+
+#about h1 {
+  font-weight: bolder;
+  font-family: "noto sans";
+  letter-spacing: 1px;
+}
+
+#about h1 span {
+  font-weight: lighter;
+  font-family: "noto sans JP";
 }
 
 #main-nav {
