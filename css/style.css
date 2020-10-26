@@ -11,9 +11,9 @@ html {
 
 body {
   font-family: "noto sans";
-  background-image: url("/img/back2.jpg");
-  background-position: center;
-  background-size: cover;
+  background-image: url("/img/back4.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
   z-index: 6;
 }
 
@@ -62,8 +62,9 @@ body {
 }
 
 #header {
-  margin: 1rem auto;
+  margin: 5rem auto;
   width: 90%;
+  background-color: #f7f8ef;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -683,6 +684,9 @@ body {
 @media (max-width: 600px) {
   #main-nav ul li a {
     font-size: 33px;
+  }
+  #logo {
+    margin: 0 auto;
   }
   #contact {
     margin-top: 320%;
