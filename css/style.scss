@@ -6,7 +6,8 @@
 
 $purp: #251a29;
 $grey: rgba(85, 85, 85, 0.767);
-$yell: rgb(120, 22, 149);
+$purp2: rgb(120, 22, 149);
+$yell: rgb(228, 228, 50);
 
 @mixin jContent {
   display: flex;
@@ -20,13 +21,11 @@ html {
 
 body {
   font-family: "noto sans";
-  background: rgb(214, 211, 211);
+  background-image: url("/img/back2.jpg");
+  background-position: center;
 
-  // background: url(/img/back3.jpg);
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-blend-mode: lighten;
+  background-size: cover;
+  z-index: 6;
 }
 
 .hide {
@@ -180,7 +179,7 @@ body {
 
     a:hover {
       border-bottom: 2px solid black;
-      color: $yell;
+      color: $purp2;
       transform: scale(1.2);
       margin-left: 8%;
     }
@@ -204,7 +203,7 @@ body {
   }
   h4 {
     font-size: 4rem;
-    border-bottom: 2px solid $yell;
+    border-bottom: 2px solid $purp2;
     padding-top: 2%;
     font-family: "playfair display" !important;
     padding-bottom: 2% !important;
@@ -236,7 +235,7 @@ body {
         padding: 1rem;
         border-radius: 50%;
         color: white;
-        border: 1px solid $yell;
+        border: 1px solid $purp2;
       }
       img {
         border: 1px solid $purp;
@@ -308,7 +307,7 @@ body {
   h4 {
     font-family: "playfair display" !important;
     font-size: 4rem;
-    border-bottom: 2px solid $yell;
+    border-bottom: 2px solid $purp2;
     border-bottom-right-radius: 40%;
     padding: 1rem;
     text-transform: uppercase;
@@ -334,7 +333,7 @@ body {
       i {
         padding: 2rem;
         color: rgb(197, 197, 194);
-        border: 1px solid $yell;
+        border: 1px solid $purp2;
         background: $purp;
         border-radius: 50%;
         transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s;
@@ -396,7 +395,7 @@ body {
 
   h4 {
     font-size: 4rem;
-    border-bottom: 2px solid $yell;
+    border-bottom: 2px solid $purp2;
     height: 130px;
     font-family: "playfair display" !important;
     margin: 1rem auto;
@@ -512,7 +511,7 @@ body {
   }
 
   #contact {
-    margin-top: 480%;
+    margin-top: 520%;
     height: 160%;
   }
   .form-group input {
@@ -539,10 +538,18 @@ body {
   .other-contacts img {
     margin: 0 auto;
   }
+  #enableSound {
+    font-size: 20px;
+    width: 200px;
+  }
 
   #projects {
     width: 100%;
-    margin-top: 200%;
+    margin-top: 320%;
+    h4 {
+      font-size: 40px !important;
+      width: 100%;
+    }
   }
 
   #services {
