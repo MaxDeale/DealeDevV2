@@ -380,6 +380,7 @@ body {
 }
 
 #services .services-container {
+  margin: 0 auto;
   background-image: url(/img/serv.png);
   background-attachment: fixed;
   background-size: cover;
@@ -663,12 +664,19 @@ body {
   }
 }
 
+@media (max-width: 477px) {
+  #contact {
+    margin-top: 520% !important;
+    height: 160%;
+  }
+}
+
 @media (max-width: 600px) {
   #main-nav ul li a {
     font-size: 33px;
   }
   #contact {
-    margin-top: 520%;
+    margin-top: 320%;
     height: 160%;
   }
   .form-group input {
