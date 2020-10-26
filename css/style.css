@@ -39,12 +39,12 @@ body {
   color: #251a29;
   width: 80%;
   font-size: 2rem;
-  margin-top: 20%;
+  margin: 10% auto;
 }
 
 #enableSound:hover {
   background: #251a29;
-  border: 1px solid rgba(85, 85, 85, 0.767);
+  border: 2px solid #e4e432;
   color: white;
 }
 
@@ -73,6 +73,15 @@ body {
           justify-content: center;
   -ms-grid-columns: (minmax(420px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+
+.lead {
+  border-top: 1px solid black;
+  margin: 2rem auto;
+  padding: 0.2rem;
+  border-bottom: 1px solid black;
+  line-height: 2;
+  font-size: 12px;
 }
 
 .header-a {
@@ -156,6 +165,16 @@ body {
   width: 400px;
   padding: 1rem;
   border: 1px solid black;
+}
+
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #about h1 {
@@ -751,8 +770,7 @@ body {
   }
   #enableSound {
     font-size: 20px;
-    width: 200px;
-    margin-right: 20%;
+    width: 100%;
   }
   #projects {
     width: 100%;
@@ -762,6 +780,9 @@ body {
     width: 100%;
   }
   #services {
+    width: 100%;
+  }
+  #about {
     width: 100%;
   }
   #about h1 {
