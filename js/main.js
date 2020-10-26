@@ -10,16 +10,12 @@ let projButton = document.getElementById("proj-button");
 let contButton = document.getElementById("cont-button");
 let servButton = document.getElementById("serv-button");
 
-let linksSection = document.getElementById("links-section");
-
 logo.addEventListener("mouseover", function () {
   this.src = "/img/Black on White.png";
-  linksSection.classList.add("invertBlack");
 });
 
 logo.addEventListener("mouseout", function () {
   this.src = "/img/White on Black.png";
-  linksSection.classList.remove("invertBlack");
 });
 
 projButton.addEventListener("mouseover", function () {
@@ -59,9 +55,14 @@ function init() {
     navLinks[i].addEventListener("mouseover", play);
   }
 
-  let servLinks = document.getElementsByClassName("service-item");
+  let servLinks = document.getElementsByClassName("serv-icon");
   for (i = 0; i < servLinks.length; i++) {
     servLinks[i].addEventListener("mouseover", play);
+  }
+
+  let linksIcons = document.getElementsByClassName("link-icon");
+  for (i = 0; i < linksIcons.length; i++) {
+    linksIcons[i].addEventListener("mouseover", play);
   }
 
   let certs = document.getElementsByClassName("cert");

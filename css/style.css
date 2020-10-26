@@ -61,6 +61,7 @@ body {
 #header {
   margin: 1rem auto;
   width: 90%;
+  height: 100vh;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -126,8 +127,9 @@ body {
 }
 
 .header-b #maxpic {
-  width: 350px;
+  width: 400px;
   padding: 1rem;
+  border: 1px solid black;
 }
 
 #main-nav {
@@ -646,6 +648,9 @@ body {
 @media (max-width: 600px) {
   #main-nav ul li a {
     font-size: 33px;
+  }
+  #header-b {
+    margin-bottom: 190%;
   }
   #contact {
     margin-top: 480%;
