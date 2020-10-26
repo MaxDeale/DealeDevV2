@@ -58,14 +58,14 @@ body {
 #disableSound:hover {
   background: #251a29;
   border: 1px solid rgba(85, 85, 85, 0.767);
-  color: white;
+  color: #f3f3f3;
 }
 
 #header {
   padding: 2rem;
   margin: 5rem auto;
   width: 90%;
-  background-color: #f1f1ec;
+  background-color: #eeeeed;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -366,7 +366,7 @@ body {
 }
 
 #projects .projects-container .project-item a {
-  width: 100%;
+  width: 90%;
   height: 80px !important;
   background: #251a29;
   color: #faf068;
@@ -741,7 +741,6 @@ body {
     width: 100%;
   }
   #contact {
-    margin-top: 320%;
     height: 160%;
   }
   .form-group input {

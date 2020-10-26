@@ -67,7 +67,7 @@ body {
 #disableSound:hover {
   background: $purp;
   border: 1px solid $grey;
-  color: white;
+  color: rgb(243, 243, 243);
 }
 
 //header-a
@@ -76,7 +76,7 @@ body {
   padding: 2rem;
   margin: 5rem auto;
   width: 90%;
-  background-color: rgb(241, 241, 236);
+  background-color: rgb(238, 238, 237);
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
@@ -290,7 +290,7 @@ body {
         font-weight: bolder;
       }
       a {
-        width: 100%;
+        width: 90%;
         height: 80px !important;
         background: $purp;
         color: rgb(250, 240, 104);
@@ -565,7 +565,6 @@ body {
   }
 
   #contact {
-    margin-top: 320%;
     height: 160%;
   }
   .form-group input {
