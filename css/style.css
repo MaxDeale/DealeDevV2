@@ -11,9 +11,7 @@ html {
 
 body {
   font-family: "noto sans";
-  background-image: url("/img/back4.jpg");
-  background-repeat: repeat;
-  background-attachment: fixed;
+  background-color: #1b0b2a !important;
   z-index: 6;
 }
 
@@ -67,6 +65,7 @@ body {
   width: 90%;
   background-color: white;
   background-repeat: no-repeat;
+  border: 2px solid black;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -78,11 +77,11 @@ body {
 
 .lead {
   border-top: 1px solid black;
-  margin: 2rem auto;
+  margin: 2.5rem auto;
   padding: 0.2rem;
+  font-size: 2rem;
   border-bottom: 1px solid black;
-  line-height: 2;
-  font-size: 12px;
+  line-height: 2.4;
 }
 
 .header-a {
