@@ -418,7 +418,7 @@ body {
 }
 
 #projects .projects-container .project-item:hover {
-  background: black;
+  background: #161616;
   color: #f1f3f8;
 }
 
@@ -763,6 +763,12 @@ body {
   }
   #header {
     width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #links-section {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
   #contact {
     height: 160%;
@@ -821,6 +827,9 @@ body {
   }
   #projects h4 {
     font-size: 40px !important;
+    width: 100%;
+  }
+  #projects .project-item {
     width: 100%;
   }
   #services {

@@ -158,6 +158,7 @@ body {
 .header-b {
   display: grid;
   justify-content: center;
+
   #maxpic {
     width: 400px;
     height: 410px;
@@ -262,11 +263,9 @@ body {
 
   .projects-container {
     margin-top: 2%;
-
     height: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-
     align-items: center;
     justify-content: center;
     grid-gap: 0.5rem;
@@ -338,7 +337,7 @@ body {
     }
 
     .project-item:hover {
-      background: black;
+      background: rgb(22, 22, 22);
       color: $grey;
       p {
         color: $grey;
@@ -582,6 +581,12 @@ body {
 
   #header {
     width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #links-section {
+    grid-template-columns: 1fr;
   }
 
   #contact {
@@ -621,6 +626,9 @@ body {
 
     h4 {
       font-size: 40px !important;
+      width: 100%;
+    }
+    .project-item {
       width: 100%;
     }
   }
