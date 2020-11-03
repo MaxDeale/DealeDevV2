@@ -9,13 +9,16 @@ let servI = document.getElementById("serv");
 let projButton = document.getElementById("proj-button");
 let contButton = document.getElementById("cont-button");
 let servButton = document.getElementById("serv-button");
+let header = document.getElementById("header");
 
 logo.addEventListener("mouseover", function () {
   this.src = "/img/Black on White.png";
+  header.classList.add("invertBlack");
 });
 
 logo.addEventListener("mouseout", function () {
   this.src = "/img/White on Black.png";
+  header.classList.remove("invertBlack");
 });
 
 projButton.addEventListener("mouseover", function () {
