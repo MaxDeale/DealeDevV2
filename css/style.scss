@@ -28,6 +28,9 @@ body {
   z-index: 6;
 }
 
+#git {
+  width: 210px;
+}
 .hide {
   display: none !important;
 }
@@ -39,6 +42,14 @@ body {
 .invertBlack {
   background: black !important;
 
+  .lead {
+    border-color: white !important;
+  }
+
+  #main-nav {
+    border-color: white !important;
+  }
+
   .header-b div {
     background: black !important;
     color: white !important;
@@ -48,10 +59,9 @@ body {
     color: white !important;
   }
 
-  #git {
-    border: 8px solid black;
+  #links-section img {
+    border: 4px solid white;
   }
-
   body {
     color: white !important;
   }
