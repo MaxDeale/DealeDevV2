@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "noto sans";
-  background-color: #1b0b2a !important;
+  background-color: #393b44 !important;
   z-index: 6;
 }
 
@@ -32,30 +32,30 @@ body {
 
 #enableSound {
   padding: 1rem;
-  background: rgba(85, 85, 85, 0.767);
-  border: 1px solid #251a29;
-  color: #251a29;
+  background: #f1f3f8;
+  border: 1px solid #393b44;
+  color: #393b44;
   width: 80%;
   font-size: 2rem;
   margin: 10% auto;
 }
 
 #enableSound:hover {
-  background: #251a29;
-  border: 2px solid #e4e432;
+  background: #393b44;
+  border: 2px solid #d6e0f0 228, 228, 50;
   color: white;
 }
 
 #disableSound {
   padding: 1rem;
   background: red;
-  border: 1px solid #251a29;
-  color: #251a29;
+  border: 1px solid #393b44;
+  color: #393b44;
 }
 
 #disableSound:hover {
-  background: #251a29;
-  border: 1px solid rgba(85, 85, 85, 0.767);
+  background: #393b44;
+  border: 1px solid #f1f3f8;
   color: #f3f3f3;
 }
 
@@ -71,8 +71,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-grid-columns: (minmax(420px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .lead {
@@ -100,12 +100,11 @@ body {
 #links-section {
   display: -ms-grid;
   display: grid;
-  width: 53%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-grid-columns: (minmax(120px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  -ms-grid-columns: (minmax(120px, 2fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
 }
 
 #links-section img {
@@ -272,12 +271,12 @@ body {
   transition: all 5.5s cubic-bezier(0.875, 0.885, 0.32, 1.275);
   color: black;
   padding: 1rem;
-  border-bottom: 2px solid #251a29;
+  border-bottom: 2px solid #393b44;
 }
 
 #main-nav ul li a:hover {
   border-bottom: 2px solid black;
-  color: #781695;
+  color: #8d93ab;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   margin-left: 8%;
@@ -302,7 +301,7 @@ body {
 
 #projects h4 {
   font-size: 4rem;
-  border-bottom: 2px solid #781695;
+  border-bottom: 2px solid #8d93ab;
   padding-top: 2%;
   font-family: "playfair display" !important;
   padding-bottom: 2% !important;
@@ -329,7 +328,7 @@ body {
 }
 
 #projects .projects-container .project-item {
-  border: 1px solid #251a29;
+  border: 1px solid #393b44;
   padding: 0.2rem;
   font-family: "noto sans jp";
   display: -webkit-box;
@@ -352,15 +351,15 @@ body {
 
 #projects .projects-container .project-item .fulls {
   margin-top: 5%;
-  background-color: #251a29;
+  background-color: #393b44;
   padding: 1rem;
   border-radius: 50%;
   color: white;
-  border: 1px solid #781695;
+  border: 1px solid #8d93ab;
 }
 
 #projects .projects-container .project-item img {
-  border: 1px solid #251a29;
+  border: 1px solid #393b44;
   width: 100%;
   height: 50%;
 }
@@ -370,7 +369,7 @@ body {
 }
 
 #projects .projects-container .project-item p {
-  color: #251a29;
+  color: #393b44;
   margin-top: 5%;
   font-size: 1.5rem;
   font-weight: bolder;
@@ -379,7 +378,7 @@ body {
 #projects .projects-container .project-item a {
   width: 90%;
   height: 80px !important;
-  background: #251a29;
+  background: #393b44;
   color: #faf068;
   height: 100%;
   border-radius: 5px;
@@ -387,6 +386,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 1px solid #f1f3f8;
   text-decoration: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -408,13 +408,26 @@ body {
 }
 
 #projects .projects-container .project-item a:hover {
-  background: black;
-  color: white;
+  background: white;
+  color: #393b44;
   cursor: pointer;
 }
 
 #projects .projects-container .project-item a:hover i {
   margin-left: 1.8rem;
+}
+
+#projects .projects-container .project-item:hover {
+  background: black;
+  color: #f1f3f8;
+}
+
+#projects .projects-container .project-item:hover p {
+  color: #f1f3f8;
+}
+
+#projects .projects-container .project-item:hover .fulls {
+  color: #f1f3f8;
 }
 
 #services {
@@ -443,7 +456,7 @@ body {
 #services h4 {
   font-family: "playfair display" !important;
   font-size: 4rem;
-  border-bottom: 2px solid #781695;
+  border-bottom: 2px solid #8d93ab;
   border-bottom-right-radius: 40%;
   padding: 1rem;
   text-transform: uppercase;
@@ -498,8 +511,8 @@ body {
 #services .services-container .service-item i {
   padding: 2rem;
   color: #c5c5c2;
-  border: 1px solid #781695;
-  background: #251a29;
+  border: 1px solid #8d93ab;
+  background: #393b44;
   border-radius: 50%;
   -webkit-transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s;
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s;
@@ -508,14 +521,14 @@ body {
 #services .services-container .service-item i:hover {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
-  color: #faf068;
-  border-color: #faf068;
+  color: #f8ec43;
+  border-color: #f5ea4e;
 }
 
 #services .services-container .service-item p {
   font-size: 2rem;
   font-weight: bolder;
-  color: #faf068;
+  color: #393b44;
 }
 
 #services .services-container .service-item ul {
@@ -528,7 +541,7 @@ body {
   text-align: center;
   padding: 1rem 0;
   font-size: 1.2rem;
-  color: #faf068;
+  color: #8d93ab;
 }
 
 #services .services-container .service-item h6 {
@@ -538,8 +551,8 @@ body {
 }
 
 #services .services-container .service-item:hover {
-  background: rgba(85, 85, 85, 0.767);
-  border: 1px solid #251a29;
+  background: black;
+  border: 1px solid #393b44;
 }
 
 #contact {
@@ -560,7 +573,7 @@ body {
 
 #contact h4 {
   font-size: 4rem;
-  border-bottom: 2px solid #781695;
+  border-bottom: 2px solid #8d93ab;
   height: 130px;
   font-family: "playfair display" !important;
   margin: 1rem auto;
@@ -672,7 +685,7 @@ body {
   height: 100px;
   color: #faf068;
   cursor: pointer;
-  background: #251a29;
+  background: #393b44;
   font-size: 2rem;
   margin: 1rem 0;
   border: 1px solid #faf068;
