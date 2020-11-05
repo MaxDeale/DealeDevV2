@@ -132,6 +132,7 @@ body {
   background-image: url("/img/back6.jpg");
   background-size: cover;
   padding-right: 4rem;
+  border: 1px solid black;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
