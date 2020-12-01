@@ -384,7 +384,9 @@ body {
 }
 
 #projects .projects-container .project-item {
+  overflow: hidden;
   border: 1px solid #393b44;
+  height: 100%;
   font-family: "noto sans jp";
   display: -webkit-box;
   display: -ms-flexbox;
@@ -416,7 +418,7 @@ body {
 #projects .projects-container .project-item img {
   border: 1px solid #393b44;
   width: 100%;
-  height: 50%;
+  height: 30%;
 }
 
 #projects .projects-container .project-item h5 {
@@ -424,20 +426,20 @@ body {
 }
 
 #projects .projects-container .project-item p {
+  padding: 15px;
   color: #393b44;
   margin-top: 5%;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bolder;
 }
 
 #projects .projects-container .project-item a {
   width: 90%;
-  height: 80px !important;
   background: #393b44;
   color: #faf068;
-  height: 100%;
   border-radius: 5px;
   border: none;
+  padding: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
