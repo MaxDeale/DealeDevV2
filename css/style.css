@@ -351,8 +351,9 @@ body {
 }
 
 #projects h2 {
-  font-size: 4rem;
+  font-size: 3.2rem;
   font-weight: lighter;
+  margin: 0;
 }
 
 #projects h4 {
@@ -380,7 +381,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  grid-gap: 0.5rem;
+  grid-gap: 1rem;
 }
 
 #projects .projects-container .project-item {
@@ -406,6 +407,15 @@ body {
   border-radius: 5px;
 }
 
+#projects .projects-container .project-item h2 {
+  margin: 1rem;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 #projects .projects-container .project-item .fulls {
   margin-top: 5%;
   background-color: #393b44;
@@ -418,11 +428,7 @@ body {
 #projects .projects-container .project-item img {
   border: 1px solid #393b44;
   width: 100%;
-  height: 30%;
-}
-
-#projects .projects-container .project-item h5 {
-  font-size: 2.5rem;
+  height: 100%;
 }
 
 #projects .projects-container .project-item p {
