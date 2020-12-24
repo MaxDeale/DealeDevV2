@@ -42,13 +42,19 @@
   <body>
     <section id="header">
       <div class="header-a">
-        <img id="logo" src="/img/White on Black.png" alt="" />
+        <a style="margin: 0 auto" href="https://deale-development.netlify.app/">
+          <img id="logo" src="/img/newlogblack.png" alt="nolog"
+        /></a>
 
         <div id="links-section">
           <a
             href="https://www.youtube.com/channel/UCqpjlnAQaZ6gc0-dp_WWLwg?view_as=subscriber"
           >
-            <img data-file="bloop" class="link-icon" src="/img/yt.png" alt=""
+            <img
+              data-file="bloop"
+              class="link-icon"
+              src="/img/yt.png"
+              alt="nolink"
           /></a>
           <a href="https://github.com/MaxDeale">
             <img
@@ -150,6 +156,28 @@
     <section id="projects">
       <h4>Projects</h4>
       <div class="projects-container">
+        <div class="project-item">
+          <h2>Deale Development</h2>
+
+          <img src="/img/dd.gif" alt="" />
+          <i class="fas fa-pencil-alt fa-2x fulls"></i>
+          <p>
+            Central website for my personal business which offers web design and
+            development as well as tech educational services.
+          </p>
+          <a
+            data-file="hover3"
+            class="projectButton"
+            href="https://deale-development.netlify.app/"
+            >View Live Project <i class="fas fa-arrow-right"></i
+          ></a>
+          <a
+            data-file="hover3"
+            class="projectButton"
+            href="https://github.com/MaxDeale/deale_development_site"
+            >View Source Code <i class="fab fa-github"></i
+          ></a>
+        </div>
         <!-- <img src="/img/serv.png" alt="no" /> -->
         <div class="project-item">
           <h2>Voice Artist DB</h2>
@@ -307,7 +335,7 @@
       <div class="contact-container">
         <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
           <div class="form-group">
-            <label for="name"> Enter Your Name: </label>
+            <label for="name"> Enter Your Name:</label>
             <input
               type="text"
               class="text-input name-input"

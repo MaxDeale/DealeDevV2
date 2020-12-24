@@ -17,7 +17,7 @@ logo.addEventListener("mouseover", function () {
 });
 
 logo.addEventListener("mouseout", function () {
-  this.src = "/img/White on Black.png";
+  this.src = "/img/newlogblack.png";
   header.classList.remove("invertBlack");
 });
 
